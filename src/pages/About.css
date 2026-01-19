@@ -1,0 +1,78 @@
+.page-header {
+    background-color: var(--color-bg-light);
+    padding: 100px 0 60px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.page-header h1 {
+    font-size: 3rem;
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+}
+
+.page-header p {
+    font-size: 1.2rem;
+    color: var(--color-text-muted);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.bg-light {
+    background-color: var(--color-bg-light);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: var(--color-text);
+}
+
+/* Mission Vision */
+.mission-vision-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.mv-card {
+    background: var(--color-bg);
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.mv-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--color-primary);
+}
+
+.mv-icon {
+    color: var(--color-primary);
+    margin-bottom: 20px;
+}
+
+/* Values */
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.value-card {
+    background: var(--color-bg-light);
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.value-icon {
+    color: var(--color-secondary);
+    margin-bottom: 15px;
+}
